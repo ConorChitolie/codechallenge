@@ -14,15 +14,10 @@ public class PasswordGenerator {
         if (upperCaseCharacters == true) {
             characters.append("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
         }
-        if (specialCharacters == true) {
+        if (lowerCaseCharacters == true) {
             characters.append("abcdefghijklmnopqrstuvwxyz");
         }
 
-        if (characters.length() == 0 || (!numericalCharacters & !specialCharacters & !upperCaseCharacters & !lowerCaseCharacters)) {
-            // If no character set is selected, use the default set
-            characters.append("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789");
-        }
-        
         StringBuilder password = new StringBuilder();
 
         for (int i = 0; i < length; i++) {
