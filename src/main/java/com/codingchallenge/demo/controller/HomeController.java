@@ -13,7 +13,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String showForm() {
-        return "passwordForm";
+        return "index";
     }
 
     @PostMapping("/generate")
