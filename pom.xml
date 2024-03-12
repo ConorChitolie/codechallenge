@@ -72,7 +72,7 @@
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.0</version>
             <configuration>
-                <release>11</release> <!-- Set the Java version you are using -->
+                <release>21</release> <!-- Set the Java version you are using -->
             </configuration>
         </plugin>
 		</plugins>
