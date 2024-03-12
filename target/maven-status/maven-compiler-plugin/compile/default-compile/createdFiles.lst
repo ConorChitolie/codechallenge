@@ -1,0 +1,3 @@
+com\codingchallenge\demo\DemoApplication.class
+com\codingchallenge\demo\controller\HomeController.class
+com\codingchallenge\demo\model\PasswordGenerator.class
